@@ -1,6 +1,6 @@
 ﻿namespace digitalis_nyomozo
 {
-    internal class Program
+    internal class Main
     {
         static void Main(string[] args)
         {
