@@ -8,5 +8,22 @@ namespace digitalis_nyomozo
 {
 	internal class Evidence
 	{
+		private int azonosito;
+		private string tipus;
+		private string leiras;
+		private int megbizhatosagi_ertek;
+
+		public Evidence(int azonosito, string tipus, string leiras, int megbizhatosagi_ertek)
+		{
+			this.azonosito = azonosito;
+			this.tipus = tipus;
+			this.leiras = leiras;
+			this.megbizhatosagi_ertek = megbizhatosagi_ertek;
+		}
+
+		public int Azonosito { get => azonosito; set => azonosito = value; }
+		public string Tipus { get => tipus; set => tipus = value; }
+		public string Leiras { get => leiras; set => leiras = value; }
+		public int Megbizhatosagi_ertek { get => megbizhatosagi_ertek; set => megbizhatosagi_ertek = value; }
 	}
 }
