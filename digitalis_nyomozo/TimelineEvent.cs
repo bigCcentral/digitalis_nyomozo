@@ -8,5 +8,16 @@ namespace digitalis_nyomozo
 {
 	internal class TimelineEvent
 	{
+		private DateTime datum;
+		private string esemeny_leiras;
+
+		public TimelineEvent(DateTime datum, string esemeny_leiras)
+		{
+			this.datum = datum;
+			this.esemeny_leiras = esemeny_leiras;
+		}
+
+		public DateTime Datum { get => datum; set => datum = value; }
+		public string Esemeny_leiras { get => esemeny_leiras; set => esemeny_leiras = value; }
 	}
 }
